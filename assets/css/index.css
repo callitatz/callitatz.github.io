@@ -9,7 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
-  color: #eee;
+  color: white;
 }
 .container {
   height: 100vh;
@@ -47,6 +47,12 @@ body {
     background: black;
     color: white;
 }
+#Contact{
+text-align: center;
+    width: 100%;
+    height: 28em;
+    margin-top: 10em;
+}
 @media only screen and (min-width: 601px) {
     body {
       background-color: lightblue;
@@ -76,8 +82,8 @@ body {
     background: white;
     margin: 10px;
       padding: 10px;
-      width:20%;
-    height: 12em;
+      width:20em;
+    height: 20em;
     background: cover;
     }
     
@@ -95,7 +101,34 @@ body {
   height: 10em;
   color: white;
   
-} 
+}
+
+.temptatto{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+.temptatto img {
+  vertical-align: middle;
+    width: 32em;
+    height: 30em;
+    margin: auto;
+    padding: 9px;
+}
+.Wallimgtg{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+}
+.Wallimgtg img{
+  vertical-align: middle;
+  width: 49em;
+  height: 45em;
+  margin: auto;
+  padding: 4px;
+}
+
 } 
   
 @media only screen and (max-width: 600px) {
@@ -108,6 +141,7 @@ body {
         height: 95vh;
         
     }
+    
     .container p {
       font-size: 1rem;
       padding: 0.5rem;
@@ -128,7 +162,7 @@ top:30em;
 width: 55%;
 
 padding: 1%;
-height: 15em;
+height: 14em;
 color: white;
 
 }
@@ -145,4 +179,30 @@ color: white;
   height: 15em;
   background: white;
 }
+.temptatto{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+.temptatto img {
+  vertical-align: middle;
+  width: 12em;
+  height: 15em;
+  margin: 4px;
+  padding: 3px;
+}
+.Wallimgtg{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+}
+.Wallimgtg img{
+  vertical-align: middle;
+    width: 25em;
+    height: 30em;
+    margin: auto;
+    padding: 4px;
+}
+
 }
